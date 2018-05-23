@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kk"
+    android:fitsSystemWindows="true"
+    tools:context=".Tecno">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout android:id="@+id/dcLenta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imLento"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/lento_s"
+                android:contentDescription="@string/todo"/>
+
+            <TextView
+                android:id="@+id/n1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lento"
+                android:textAllCaps="true"
+                android:textColor="@color/blanco"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <LinearLayout android:id="@+id/dcEstandar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imEstandar"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/estandar_s"
+                android:contentDescription="@string/todo"/>
+
+            <TextView
+                android:id="@+id/n2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/estandar"
+                android:textAllCaps="true"
+                android:textColor="@color/blanco"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <LinearLayout android:id="@+id/dcRapida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imRapido"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/rapido_s"
+                android:contentDescription="@string/todo"/>
+
+            <TextView
+                android:id="@+id/n3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rapido"
+                android:textAllCaps="true"
+                android:textColor="@color/blanco"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.mikhaellopez.circularfillableloaders.CircularFillableLoaders
+        android:id="@+id/circularFillableLoaders"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/tierra"
+        app:cfl_border="true"
+        app:cfl_border_width="5dp"
+        app:cfl_wave_amplitude="0.06"
+        app:cfl_wave_color="#c384eff9" />
+
+    <TextView
+        android:id="@+id/text_view_countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/start"
+        android:textColor="@android:color/white"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="208dp"
+        android:text="@string/pause"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:textColor="@color/blanco"/>
+
+    <TextView
+        android:id="@+id/time2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="208dp"
+        android:text="@string/_00_00"
+        android:textSize="16sp"
+        android:textColor="@color/blanco"/>
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/press"
+        android:layout_marginBottom="62dp"
+        android:textColor="@color/blanco"
+        android:visibility="gone"
+        android:text="@string/reset" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/cerrar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/circularFillableLoaders"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="alarm.json"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_loop="true" />
+
+</RelativeLayout>

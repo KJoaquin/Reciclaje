@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kevyn.com.tec_umwelt">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Tecno"
+            android:theme="@style/AppTheme2">
+        </activity>
+        <activity
+            android:name=".Ducha"
+            android:theme="@style/AppTheme2">
+        </activity>
+        <activity
+            android:name=".Ambiente"
+            android:theme="@style/AppTheme2">
+        </activity>
+        <activity android:name=".Recordatorio"
+            android:theme="@style/AppTheme2">
+        </activity>
+
+        <receiver
+            android:name=".MyAlarmReceiver"
+            android:process=":remote" />
+
+        <service
+            android:name=".MyTestService"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

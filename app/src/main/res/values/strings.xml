@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Tec-Umwelt</string>
+    <string name="start">Start</string>
+    <string name="reset">reset</string>
+    <string name="_00_00">00:00</string>
+    <string name="lento">LENTO</string>
+    <string name="estandar">estandar</string>
+    <string name="rapido">Rapido</string>
+    <string name="todo">TODO</string>
+    <string name="ducha">ducha</string>
+    <string name="consejos">Consejos</string>
+    <string name="recorda">recordatorios</string>
+    <string name="pause">Pause</string>
+    <string name="consejo1">Reducir los envases.</string>
+    <string name="consejo2">Utilice recipientes reutilizables.</string>
+    <string name="consejo3">Encuentra un negocio que quiere la basura.</string>
+    <string name="consejo4">Consiga sus materiales a través del intercambio.</string>
+    <string name="consejo5">Investigar el arrendamiento de su equipo.</string>
+    <string name="consejo6">Vuelva a llenar su material de oficina.</string>
+    <string name="consejo7">Instalar sistemas de filtración de agua.</string>
+    <string name="consejo8">Impresión en ambas caras del papel.</string>
+    <string name="consejo9">Donar bienes duraderos a una buena causa.</string>
+    <string name="consejo10">Se creativo! Paso fuera de la caja.</string>
+    <string name="texto1">Reduce las grandes cantidades de residuos que provienen de exceso de embalaje. Si usted siente que el envase va un poco por la borda, hablar con sus proveedores, hacerles saber los costos adicionales de hacer frente a los residuos.</string>
+    <string name="texto2">Recepción y transporte de sus cargas en recipientes desechables acumula residuos innecesarios. Intente más duradera, envases reutilizables. Se va a reducir el trabajo administrativo de las compras y reducir los costes de eliminación.</string>
+    <string name="texto3">Deje que el SVSWA encontrar otra empresa local que puede utilizar la basura en su producto.</string>
+    <string name="texto4">¿Alguien tirar lo que necesita? El Programa de Intermediación SVSWA Materiales puede ayudarle a encontrar las fuentes no vírgenes más baratas de material que se adapte a sus necesidades.</string>
+    <string name="texto5">Tienes la oportunidad de estar al día con la última tecnología, y su proveedor llega a recuperar sus materiales. Es una situación de ganar-ganar.</string>
+    <string name="texto6">Compra de cartuchos de tinta recargables, dispensadores de cinta, plumas y lápices. Es ecológico más baratos y más. No deje artículos de oficina derribar su cuenta de resultados.</string>
+    <string name="texto7">No pierda tiempo y dinero en botellas de agua. Proporcionar agua abundante y limpia del grifo.</string>
+    <string name="texto8">El papel tiene la gran ventaja de ser reversible. Imprima copias de doble cara, imprimir en el reverso de las páginas usadas, o utilizar documentos antiguos de papel de desecho.</string>
+    <string name="texto9">Escuelas, sin fines de lucro, y las organizaciones caritativas pueden reutilizar sus muebles o electrodomésticos viejos, y que a menudo pueden encontrar maneras innovadoras de utilizar otras sobras. Deje que su desecho sea un regalo para alguien que lo necesite.</string>
+    <string name="texto10">Usted sabe que su desecho negocio mejor que nadie. Piense en nuevas maneras que usted puede integrar sus residuos en una empresa más productiva.</string>
+    <string name="bote1">Color azul reciclaje (papel y cartón)</string>
+    <string name="bote2">Color amarillo reciclaje (plásticos y latas)</string>
+    <string name="bote3">Color verde reciclaje (vidrio)</string>
+    <string name="bote4">Color rojo reciclaje (desechos peligrosos)</string>
+    <string name="bote5">Color gris reciclaje (resto de residuos)</string>
+    <string name="bote6">Color naranja reciclaje (orgánico)</string>
+
+    <string name="cont1">-Papel y cajas de cartón: envases de alimentación, calzado, productos congelados, papel de envolver, papel de uso diario, etc</string>
+    <string name="cont2">-Plástico: productos de higiene y limpieza, tarrinas, bandejas, envoltorios y bolsas. \n-Metal: latas, bandejas de aluminio, aerosoles, botes de desodorante, tapas y tapones metálicos. \n-Briks de leche, zumos, sopas, etc.</string>
+    <string name="cont3">-Botellas de vidrio: vino, cava o licores. \n-Frascos de vidrio: perfume, colonia o similar. \n-Tarros de alimentos: mermelada, conservas, vegetales, etc.</string>
+    <string name="cont4">-Podemos considerarlos para almacenar desechos peligrosos como baterias, pilas, insecticidas, aceites, aerosoles, o productos tecnológicos.</string>
+    <string name="cont5">-Solo para materia orgánica \n-Restos de alimentos \n-Restos (domésticos) de plantas y hojas \n-Productos elaborados con materiales orgánicos como los tapones de corcho.</string>
+    <string name="cont6">-Estos se utilizan exclusivamente para material orgánico. \n-En caso de no disponer de este tipo de contenedor, utilizar el gris.
+
+</string>
+
+</resources>
