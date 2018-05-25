@@ -114,7 +114,7 @@ public class Ducha extends AppCompatActivity {
         tN2.setTextColor(Color.WHITE);
         tN3.setTextColor(Color.CYAN);
 
-        START_TIME_IN_MILLIS = 300000;
+        START_TIME_IN_MILLIS = 210000;
         mTimeLeftInMillis = START_TIME_IN_MILLIS;
         pauseTimer();
         resetTimer();
@@ -132,7 +132,7 @@ public class Ducha extends AppCompatActivity {
         tN2.setTextColor(Color.CYAN);
         tN3.setTextColor(Color.WHITE);
 
-        START_TIME_IN_MILLIS = 470000;
+        START_TIME_IN_MILLIS = 300000;
         mTimeLeftInMillis = START_TIME_IN_MILLIS;
         pauseTimer();
         resetTimer();
@@ -150,7 +150,7 @@ public class Ducha extends AppCompatActivity {
         tN2.setTextColor(Color.WHITE);
         tN3.setTextColor(Color.WHITE);
 
-        START_TIME_IN_MILLIS = 900000;
+        START_TIME_IN_MILLIS = 470000;
         mTimeLeftInMillis = START_TIME_IN_MILLIS;
         pauseTimer();
         resetTimer();
